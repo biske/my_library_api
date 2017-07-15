@@ -42,6 +42,8 @@ GEM
     bcrypt (3.1.11)
     builder (3.2.3)
     byebug (9.0.6)
+    codeclimate-test-reporter (1.0.8)
+      simplecov (<= 0.13)
     concurrent-ruby (1.0.5)
     devise (4.3.0)
       bcrypt (~> 3.0)
@@ -50,11 +52,13 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    docile (1.1.5)
     erubi (1.6.0)
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.1)
+    json (2.1.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -125,6 +129,11 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     ruby_dep (1.5.0)
+    simplecov (0.13.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -153,6 +162,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  codeclimate-test-reporter
   devise
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
