@@ -1,3 +1,3 @@
-# MyLibraryAPI
+# MyLibraryAPI [![Test Coverage](https://codeclimate.com/github/biske/my_library_api/badges/coverage.svg)](https://codeclimate.com/github/biske/my_library_api/coverage) [![Code Climate](https://codeclimate.com/github/biske/my_library_api/badges/gpa.svg)](https://codeclimate.com/github/biske/my_library_api) [![Issue Count](https://codeclimate.com/github/biske/my_library_api/badges/issue_count.svg)](https://codeclimate.com/github/biske/my_library_api)
 
 This is HTTP API for MyLibrary project.
